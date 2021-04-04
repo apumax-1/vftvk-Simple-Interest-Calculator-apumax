@@ -1,4 +1,37 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: Arial;
+    color: white;
+}
 
+h1 {
+    color: grey;
+    font-family: Verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.row {
+    padding: 0 0 15px 90px;
+}
+
+label {
+    width: 30%;
+    display: inline-block;
+}
+
+input[name="years"] {
+    display: inline-block;
+    width: 10%;
+}
+
+.result-number {
+    background-color: yellow;
+}
